@@ -40,7 +40,7 @@ return {
       [INPUT_RIGHT] = 'h',
       [INPUT_A]     = 'y',
       [INPUT_B]     = 'r',
-    },INPUT_RIGHT
+    },
   },
   -- user4
   {
@@ -55,3 +55,53 @@ return {
     },
   },
 }
+--[[{
+  -- user1
+  {
+    type    = 'keyboard',
+    mapping = {
+      [INPUT_UP]    = 'up',
+      [INPUT_LEFT]  = 'left',
+      [INPUT_DOWN]  = 'down',
+      [INPUT_RIGHT] = 'right',
+      [INPUT_A]     = 'space',
+      [INPUT_B]     = 'z',
+    },
+  },
+  -- user2
+  {
+    type    = 'keyboard',
+    mapping = {
+      [INPUT_DOWN]  = 'w',
+      [INPUT_RIGHT] = 'a',
+      [INPUT_UP]    = 's',
+      [INPUT_LEFT]  = 'd',
+      [INPUT_A]     = 'e',
+      [INPUT_B]     = 'q',
+    },
+  },
+  -- user3
+  {
+    type    = 'keyboard',
+    mapping = {
+      [INPUT_LEFT]    = 't',
+      [INPUT_DOWN]  = 'f',
+      [INPUT_RIGHT]  = 'g',
+      [INPUT_UP] = 'h',
+      [INPUT_A]     = 'y',
+      [INPUT_B]     = 'r',
+    },
+  },
+  -- user4
+  {
+    type    = 'keyboard',
+    mapping = {
+      [INPUT_RIGHT]    = 'i',
+      [INPUT_UP]  = 'j',
+      [INPUT_LEFT]  = 'k',
+      [INPUT_DOWN] = 'l',
+      [INPUT_A]     = 'o',
+      [INPUT_B]     = 'u',
+    },
+  },
+}]]
